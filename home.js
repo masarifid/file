@@ -1,9 +1,8 @@
+ function openMobilemenu(){var e=document.getElementById("mobile-menu-nav");"block"!==e.style.display?e.style.display="block":e.style.display="none"};   
  var perPage=6;
     var numPages=3;
     var firstText ='First';
     var lastText ='Last';
-
-function openMobilemenu(){var e=document.getElementById("mobile-menu-nav");"block"!==e.style.display?e.style.display="block":e.style.display="none"};   
     var prevText ='« Previous';
     var nextText ='Next »';
     var urlactivepage=location.href;
